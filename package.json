@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "axios": "^1.10.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "testcafe": "^3.7.2",
+    "uuid": "^11.1.0"
+  },
+  "scripts": {
+    "test": "npx testcafe chrome tests",
+    "test:headless": "npx testcafe chrome:headless tests",
+    "test:multiple": "npx testcafe chrome,firefox tests",
+    "server": "node server/server.js"
+  }
+}
